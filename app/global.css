@@ -1,6 +1,6 @@
-@import 'tailwindcss';
-@import 'fumadocs-ui/css/neutral.css';
-@import 'fumadocs-ui/css/preset.css';
+@import "tailwindcss";
+@import "fumadocs-ui/css/dusk.css";
+@import "fumadocs-ui/css/preset.css";
 
 html {
   scrollbar-gutter: stable;
@@ -8,4 +8,18 @@ html {
 
 html:has(body[data-scroll-locked]) {
   scrollbar-gutter: auto;
+}
+
+th:nth-child(1),
+th:nth-child(2),
+td:nth-child(1),
+td:nth-child(2) {
+  direction: rtl;
+  text-align: start !important;
+}
+
+th:nth-child(3),
+td:nth-child(3) {
+  direction: ltr !important;
+  text-align: start !important;
 }

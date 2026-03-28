@@ -1,11 +1,10 @@
-export const appName = 'My App';
-export const docsRoute = '/docs';
-export const docsImageRoute = '/og/docs';
-export const docsContentRoute = '/llms.mdx/docs';
+export const appName = "مقرر مواد الهندسة المعلوماتية";
+export const docsRoute = "/curriculum";
+export const docsImageRoute = "/og/curriculum";
+export const docsContentRoute = "/llms.mdx/curriculum";
 
-// fill this with your actual GitHub info, for example:
 export const gitConfig = {
-  user: 'fuma-nama',
-  repo: 'fumadocs',
-  branch: 'main',
+  user: "AbdulrahmanNahhas",
+  repo: "home-university-it",
+  branch: "main",
 };
